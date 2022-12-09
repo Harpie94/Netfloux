@@ -1,0 +1,130 @@
+*{margin: 0%;
+margin-top: 0%;
+}
+
+a{
+  text-decoration:none;
+  color: #ffffff;
+}
+
+.Home{
+  display:inline;
+  padding: 2px;
+  padding-top: 2%;
+  text-align:center;
+  display:flex;
+  flex-direction: row;
+  margin:  5px;
+
+  } 
+.overview {
+  margin-left:200px;
+  margin-right:200px;
+  text-align:center;
+}
+  .titre{
+    font-size:25px;
+  }
+
+body{
+  background: rgb(140,0,0);
+  color: #000000;
+  background-repeat: repeat-x;
+
+}
+.textfilm{
+  color: white;
+  margin-left:15px;
+  font-size:20px;
+  position: relative;
+}
+
+.text{
+  text-align:center;
+  font-size:25px;
+}
+
+.genre{
+  font-size:15px;
+}
+
+.logo {
+  display: flex;
+  width:175px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  position: fixed;
+  border-color:#000000;
+  border-width: 2px; 
+  margin-right:500px;
+  z-index: 1;
+}
+
+.fond{
+  width:100%;
+  display:flex;
+  margin-right:300%;
+  /* background: linear-gradient(to bottom, rgba(255,255,255,0) 70%, rgba(255,255,255,1) 100%);
+  clip: rect(0, 3000px, 700px, 0); */
+  margin-top: 0%;
+  background-size: 100%;
+  margin-top:50px;
+}
+
+
+#clip {
+  position:absolute;
+  /* clip: rect(0, 3000px, 700px, 0); */
+  /* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
+  }
+
+.navbar{ 
+  display:flex;
+  align-content: center;
+  border-color:#000000; 
+  border-style:solid; 
+  border-radius:50px; 
+  border-width: 2px; 
+  font-size:25px;
+  padding:5px;
+  text-align:center;
+  float: right;
+  position: fixed;
+  margin-left:42.5%;
+}
+
+.navbar:focus { 
+  outline:none; 
+} 
+
+.poster{
+  width:400px;
+  margin-top:20%;
+  margin-left: 5px;
+  background-color: #000000;
+  border-radius:25px;
+}
+
+.poster:hover{
+  border:solid;
+  border-color:black;
+  border-width:1px;
+}
+
+.films{
+  display: center;
+  flex-direction: row;
+}
+
+.Nomfilm{
+  display: none;
+}
+
+.Nomfilm:hover{
+  display:flex;
+}
+
+.text{
+  margin-top: 10px;
+}
+
